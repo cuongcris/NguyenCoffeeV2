@@ -1,0 +1,74 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Customer.HistoryModel
+
+@{
+    ViewData["Title"] = "History";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+
+    .container {
+        height: 500px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-2.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<h1>History</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdersOnline[0].CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdersOnline[0].PackagingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdersOnline[0].ShippedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdersOnline[0].Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdersOnline[0].Id)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrdersOnline) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PackagingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShippedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                    <a asp-page="/Customer/Details" asp-route-orderID="@item.Id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

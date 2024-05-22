@@ -1,0 +1,61 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Authentication.ProfileModel
+@{
+}
+
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="vh-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <h2 class="card-title text-center">Profile</h2>
+                    <div class="card-body py-md-4">
+                        <p class="alert-success">@ViewData["msgOk"]</p>
+                        <form class="mx-1 mx-md-4" method="post">
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Email</label>
+                                <input type="text" asp-for="Account.Email" id="form3Example2c" class="form-control" readonly/>
+                                <span asp-validation-for="Account.Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Full Name</label>
+                                <input type="text" asp-for="Account.FullName" id="form3Example3c" class="form-control" />
+                                <span asp-validation-for="Account.FullName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Phone</label>
+                                <input type="text" asp-for="Account.Phone" id="form3Example3c" class="form-control" />
+                                <span asp-validation-for="Account.Phone" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Address</label>
+                                <input type="text" asp-for="Account.Address" id="form3Example3c" class="form-control" />
+                                <span asp-validation-for="Account.Address" class="text-danger"></span>
+                            </div>
+
+                            <div class="pt-1 mb-4">
+                                <button class="btn btn-dark btn-lg btn-block" type="submit">Change Profile</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,94 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Products.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<style>
+    .setheight-img{
+        height:120px;
+    }
+    .container{
+        height:500px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-2.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product[0].CreatedAt)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product[0].ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product[0].UnitPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product[0].Image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product[0].Category)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Product)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Image)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.Id)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<style>
+    .container {
+        overflow-y: auto;
+    }
+
+    .table td {
+        max-width: 100px; /* Đặt chiều cao tối đa cho mỗi ô là 100px */
+        overflow: hidden; /* Ẩn phần nội dung vượt quá chiều cao tối đa */
+    }
+</style>
+<script src="~/js/site.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.js"></script>

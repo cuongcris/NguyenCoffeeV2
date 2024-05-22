@@ -1,0 +1,94 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Accounts.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+
+    .container {
+        height: 500px;
+    }
+    dl.row {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    .deletecontainer{
+          text-align:center;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-2.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="deletecontainer">
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Account</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.CreatedAt)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.CreatedAt)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.Email)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.Email)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.Password)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.Password)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.FullName)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.FullName)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.Phone)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.Phone)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.Address)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.Address)
+        </dd>
+        <dt class="col-sm-5">
+            @Html.DisplayNameFor(model => model.Account.Type)
+        </dt>
+        <dd class="col-sm-5">
+            @Html.DisplayFor(model => model.Account.Type)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="Account.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
+</div>
+<script src="~/js/site.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.js"></script>

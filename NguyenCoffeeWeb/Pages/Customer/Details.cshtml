@@ -1,0 +1,72 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Customer.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+
+    .container {
+        height: 500px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-2.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<h1>Details</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ProductID
+            </th>
+            <th>
+                Product Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDetail[0].UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDetail[0].Quanlity)
+            </th>
+            <th>
+                Total
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrderDetail) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Id)
+            </td>
+            <td>
+                <img src="@item.Product.Image" style="max-width: 80px; max-height: 80px;" />
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice) VND
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Quanlity) 
+            </td>
+            <td>
+               @(item.UnitPrice * item.Quanlity) VND
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,297 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.MenuModel
+@{
+}
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+    .textColorWhite{
+        color:white;
+    }
+    
+    imageWith{
+        max-width:112px;
+        height:112px;
+        max-height:112px;
+    }
+    .title-menu{
+       text-align:center;
+       margin-top:-40px;
+    }
+
+    .placeholder-name::before {
+        content: "Your Name...";
+        color: white;
+    }
+
+    .placeholder-table::before {
+        content: "Your Table...";
+        color: white;
+    }
+
+    /*.menu-price {
+        position: absolute;
+        margin: 0;
+        margin-right: -10px;
+        top: -5px;
+        right: 10px;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 45px;
+        color: #0b0200;
+        background: #da9f5b9c;
+    }*/
+
+    .description {
+        white-space: pre-wrap;
+    }
+ </style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu Start -->
+<div class="container-fluid pt-5">
+    <div class="container">
+        <h1 class="display-4 text-center mb-3">Menu & Pricing</h1>
+        <div class="row">
+            <div class="col-lg-6 ">
+                <h1 class="mb-5 text-center">Hot Coffee</h1>
+               
+                @foreach (var item in Model.Products.Take(4).OrderBy(s => s.Description.Length))
+                {
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img style="width:146px;height:112px;" class="imageWith rounded-circle mb-3 mb-sm-0" src="@item.Image" alt="">
+                            <h5 class="menu-price">@item.UnitPrice k</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>@item.ProductName</h4>
+                            <p class="description m-0">@item.Description</p>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-lg-6">
+                <h1 class="mb-5 text-center">Cold Coffee</h1>
+                @foreach (var item in Model.Products.Skip(4).OrderBy(s=>s.Description.Length))
+                {
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img style="width:146px;height:112px;" class="imageWith rounded-circle mb-3 mb-sm-0" src="@item.Image" alt="">
+
+                            <h5 class="menu-price">@item.UnitPrice k</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>@item.ProductName</h4>
+                            <p class="description m-0">@item.Description</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu End -->
+<!-- Reservation Start -->
+<div class="container-fluid my-5">
+    <div class="container">
+        <div class="reservation position-relative overlay-top overlay-bottom">
+            <div style="height:800px;" class="row align-items-center">
+                <div class="col-lg-7 my-5 my-lg-0">
+                    <div class="class=" text-center p-5" style="background: rgba(51, 33, 29, .8);margin-left:30px;">
+                        <div class="container">
+                            <div class="row">
+                               @*hot coffee*@
+                                <div class="col-lg-6">
+                                    @*hot coffee*@
+                                    @foreach (var item in Model.Products.Take(4))
+                                    {
+                                        <div class="row align-items-center mb-5">
+                                            <div class="col-6 col-sm-7">
+                                                <img style="width:146px;height:112px;" class="imageWith rounded-circle mb-3 mb-sm-0" src="@item.Image" alt="">
+                                                <h5 class="unit-price menu-price">@item.UnitPrice</h5>
+                                            </div>
+                                            <div style="margin-left:-10px;" class="col-6 col-sm-5">
+                                                <div class="">
+                                                    <p style="font-size:17px;" class="text-white product-name">@item.ProductName</p>
+                                                </div>
+                                                <div >
+                                                    <button style="padding:inherit; width:45%;background-color:red;" class="add-to-order">+</button>
+                                                    <button style="padding:0px; width:45%;background-color:greenyellow;" class="remove-to-order">-</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                                @*cold coffee*@
+                                <div class="col-lg-6">
+                                    @*hot coffee*@
+                                    @foreach (var item in Model.Products.Skip(4))
+                                    {
+                                        <div class="row align-items-center mb-5">
+                                            <div class="col-6 col-sm-7">
+                                                <img style="width:146px;height:112px;" class="imageWith rounded-circle mb-3 mb-sm-0" src="@item.Image" alt="">
+                                                <h5 class="unit-price menu-price">@item.UnitPrice</h5>
+                                            </div>
+                                            <div style="margin-left:-10px;" class="col-6 col-sm-5">
+                                                <div class="">
+                                                    <p style="font-size:17px;" class="text-white product-name">@item.ProductName</p>
+                                                </div>
+                                                <div>
+                                                    <button style="padding:inherit; width:45%;background-color:red;" class="add-to-order">+</button>
+                                                    <button style="padding:0px; width:45%;background-color:greenyellow;" class="remove-to-order">-</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
+                        <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
+                        <form class="mb-5">
+                            <textarea readonly class="form-control bg-transparent border-primary p-4" style="margin-bottom:10px; height:200px;width:100%;color:white;font-weight:100;" placeholder="Your order here..."></textarea>
+                            <div class="form-group d-flex">
+                                <input class="flex-grow-2 form-control bg-transparent border-primary p-4 m-2 " placeholder="Your Name.." style="color:white;height:auto;"></input>
+                                <select class="flex-grow-1 form-control bg-transparent border-primary p-4 m-2" style="height:auto;width:40%;">
+                                    <option value="" disabled selected>Table</option>
+                                    <option value="1">Table 1</option>
+                                    <option value="2">Table 2</option>
+                                    <option value="3">Table 3</option>
+                                    <option value="4">Table 4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="text-white">Total Price: <span id="total-price">0</span></h3>
+                            </div>
+                            <div>
+                                <button id="btnOrder" class="btn btn-primary btn-block font-weight-bold py-3" asp-page="AiHandle/Index" type="submit">Book Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Reservation End -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const descriptions = document.querySelectorAll('.description');
+
+        descriptions.forEach(description => {
+            description.innerHTML = description.textContent.replace(/\./g, '.<br>');
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const orderTextarea = document.querySelector('textarea[placeholder="Your order here..."]');
+        const addToOrderButtons = document.querySelectorAll('.add-to-order');
+        const removeOrderButtons = document.querySelectorAll('.remove-to-order');
+        const totalPriceElement = document.getElementById('total-price');
+        let totalPrice = 0;
+
+        function adjustTextareaHeight(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = (textarea.scrollHeight) + 'px';
+        }
+
+        function updateTotalPrice() {
+            let orderText = orderTextarea.value.trim();
+            let orderLines = orderText ? orderText.split('\n') : [];
+            totalPrice = 0;
+
+            orderLines.forEach(line => {
+                if (line) {
+                    let [productName, quantity] = line.split(' x');
+                    let unitPriceElement;
+                    document.querySelectorAll('.product-name').forEach(element => {
+                        if (element.textContent === productName) {
+                            unitPriceElement = element.closest('.row').querySelector('.unit-price');
+                        }
+                    }); let unitPrice = parseFloat(unitPriceElement.textContent);
+                    totalPrice += parseFloat(unitPrice) * parseInt(quantity);
+                }
+            });
+            if (totalPrice==0) {
+                totalPriceElement.textContent = totalPrice + " vnd";
+
+            }else{
+                totalPriceElement.textContent = totalPrice + "000 vnd";
+            }
+        }
+
+        addToOrderButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const productName = this.closest('.row').querySelector('.product-name').textContent;
+                let orderText = orderTextarea.value.trim();
+                let orderLines = orderText ? orderText.split('\n') : [];
+                let productLineIndex = orderLines.findIndex(line => line.startsWith(productName));
+
+                if (productLineIndex !== -1) {
+                    let productLine = orderLines[productLineIndex];
+                    let match = productLine.match(/(\d+)$/);
+                    let quantity = match ? parseInt(match[1]) : 1;
+                    quantity++;
+                    orderLines[productLineIndex] = `${productName} x${quantity}`;
+                } else {
+                    orderLines.push(`${productName} x1`);
+                }
+
+                orderTextarea.value = orderLines.join('\n') + "\n";
+                adjustTextareaHeight(orderTextarea);
+                updateTotalPrice();
+            });
+        });
+        removeOrderButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const productName = this.closest('.row').querySelector('.product-name').textContent;
+                let orderText = orderTextarea.value.trim();
+                let orderLines = orderText ? orderText.split('\n') : [];
+                let productLineIndex = orderLines.findIndex(line => line.startsWith(productName));
+
+                if (productLineIndex !== -1) {
+                    let productLine = orderLines[productLineIndex];
+                    let match = productLine.match(/(\d+)$/);
+                    let quantity = match ? parseInt(match[1]) : 1;
+                    quantity--;
+                    orderLines[productLineIndex] = `${productName} x${quantity}`;
+                    if (quantity > 0) {
+                        orderLines[productLineIndex] = `${productName} x${quantity}`;
+                    } else {
+                        orderLines.splice(productLineIndex, 1); // Remove the product if quantity is 0
+                    }
+                } 
+
+                orderTextarea.value = orderLines.join('\n') + "\n";
+                adjustTextareaHeight(orderTextarea);
+                updateTotalPrice();
+            });
+        });
+        orderTextarea.addEventListener('input', function () {
+            adjustTextareaHeight(orderTextarea);
+            console.log("update")
+            updateTotalPrice();
+        });
+
+        // Initial adjustment
+        adjustTextareaHeight(orderTextarea);
+        updateTotalPrice();
+    });
+</script>

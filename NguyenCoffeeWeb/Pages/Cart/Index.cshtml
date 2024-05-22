@@ -1,0 +1,119 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Cart.IndexModel
+@{
+    double ?totalCart = 0;
+}
+<style>
+     .setheight-img {
+         height: 120px;
+     }
+
+     .TitleOnlineProduct {
+         text-align: center;
+         margin-bottom: 50px;
+         padding-top: -50px;
+     }
+
+     .product-image {
+         width: 207px;
+         height: 207px;
+         object-fit: cover;
+     }
+</style>
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-5 h-80">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col py-5 h-80">
+            <div class="card">
+                <div class="card-body p-4">
+
+                    <div class="row">
+
+                        <div class="col-lg-8">
+                            <h1 class="text-success">@ViewData["msg"]</h1>
+                            @if (Model.cart != null)
+                            {
+                                foreach (var item in Model.cart)
+                                {
+                                    totalCart += item.Quantity * item.Product.UnitPrice;
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between">
+
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 90px;">
+                                                        <img src="@item.Product.Image">
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div class="ms-3">
+                                                        <h5>@Html.DisplayFor(modelItem => item.Product.ProductName)</h5>
+                                                        <h6 class="fw-normal mb-0">Price: @Html.DisplayFor(modelItem => item.Product.UnitPrice) VND</h6>
+                                                        <h6 class="fw-normal mb-0">Quantity: @Html.DisplayFor(modelItem => item.Quantity)</h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <div style="width: 160px;">
+                                                        <h5 class="fw-normal mb-0">Total: @(item.Quantity * item.Product.UnitPrice) VND</h5>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else{
+                                <h1>Cart Empty</h1>
+                            }
+
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="card bg-primary text-white rounded-3">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <h4 class="mb-0">Card details</h4>
+                                    </div>
+
+                                    <h6 class="small mb-2">Card type</h6>
+                                    <a href="#!" type="submit" class="text-white">
+                                        <i class="fab fa-cc-mastercard fa-2x me-2"></i>
+                                    </a>
+                                    <a href="#!" type="submit" class="text-white">
+                                        <i class="fab fa-cc-visa fa-2x me-2"></i>
+                                    </a>
+                                    <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
+
+                                    <hr class="my-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <p class="mb-2">Total</p>
+                                        <p class="mb-2">@totalCart VND</p>
+                                    </div>
+                                    
+                                    <div class="action">
+                                        <form method="post" action="">
+                                            <button type="submit" class="add-to-cart btn btn-default">Payment</button>
+                                        </form>
+                                    </div>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

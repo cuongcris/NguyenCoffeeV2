@@ -1,0 +1,61 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Authentication.ChangePassModel
+@{
+}
+
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="vh-80" style="margin-bottom: 30px;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <h2 class="card-title text-center">Change Password Here: </h2>
+                    <div class="card-body py-md-4">
+                        <p class="alert-danger">@ViewData["msg"]</p>
+                        <p class="alert-success">@ViewData["msgOk"]</p>
+                        <form class="mx-1 mx-md-4" method="post">
+
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Current Password</label>
+                                <input type="password" asp-for="CurPassword" id="form3Example2c" class="form-control" />
+                                <span asp-validation-for="CurPassword" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">New Password</label>
+                                <input type="password" asp-for="Newpassword" id="form3Example2c" class="form-control" />
+                                <span asp-validation-for="Newpassword" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="form3Example3c">Confirm New Password</label>
+                                <input type="password" asp-for="RePassword" id="form3Example2c" class="form-control" />
+                                <span asp-validation-for="RePassword" class="text-danger"></span>
+                            </div>
+
+                            <div class="pt-1 mb-4">
+                                <button class="btn btn-dark btn-lg btn-block" type="submit">Change Pass</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

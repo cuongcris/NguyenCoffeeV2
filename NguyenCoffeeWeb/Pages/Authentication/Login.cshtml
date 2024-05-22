@@ -1,0 +1,57 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Authentication.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+</style>
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active setheight-img">
+                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+</div>
+<section class="vh-180 align-items-center">
+    <div class="container py-5 h-100 align-items-center">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-7 align-items-center">
+                <div class="card" style="border-radius: inherit;">
+                    <div class=" align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                            <form asp-page="./Login" method="post" class="align-items-center">
+                                <h1 class="display-4">Please Log in Here</h1>
+                                <p>Enter yours details below</p>
+                                <div class="mb-3 w-58">
+                                    <label class="form-label" for="form2Example17">Username</label>
+                                    <input type="text" asp-for="Account.Email" id="form2Example17" class="form-control form-control-lg" />
+                                </div>
+                                <div class="mb-3-58">
+                                    <label class="form-label for fora2Example27">Password</label>
+                                    <input type="password" asp-for="Account.Password" id="form2Example27" class="form-control fere-control-lg" />
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" asp-for="RememberMe" class="form-check-input" />
+                                    <label class="form-check-label" for="RememberMe">Remember Me</label>
+                                </div>
+                                <span class="msg-error" style="color: red">@ViewData["msg"]</span><br />
+                                <div class="pt-1 mb-4">
+                                    <button class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
+                                </div>
+                                <p class="ab-5 pb-1g-2" style="color:#393f81;">
+                                    Don't have an account? <a asp-page="./Register" style="color: #393f81;">Register here</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
