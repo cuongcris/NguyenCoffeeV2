@@ -43,11 +43,13 @@
             <button id="btnSubmit" class="btn btn-primary ">Submit</button>
         </div>
         <div id="imageContainer" class=" row">
-            
+
         </div>
 
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
     function displaySelectedImage(input) {
         if (input.files && input.files[0]) {
@@ -73,5 +75,55 @@
         displaySelectedImage(this);
     });
 </script>
-<script src="~/js/AI.js">
-</script>
+<script >
+        $(document).ready(function () {
+        $('#btnSubmit').click(function () {
+            console.log("Button clicked");
+            $.ajax({
+                url: "/AiHandle/Index?handler=LoadImages",
+                type: "GET",
+                dataType: "json",
+                success: function (datas) {
+                    const imageContainer = document.getElementById('imageContainer');
+                    imageContainer.innerHTML = ''; // Clear previous images
+                    console.log(datas);
+                    datas.forEach(function (image) {
+                        const imageElement = document.createElement('div');
+                        imageElement.classList.add('text-center', 'col-md-6', 'image-container');
+                        imageElement.innerHTML = `<img class="imagAi" src="${image.image}" alt="Image">`;
+                        imageContainer.appendChild(imageElement);
+                        console.log(imageElement);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("JQuery AJAX error: ", error);
+                }
+            });
+        });
+    });</script>
+@*<script>
+        document.getElementById('btnSubmit').addEventListener('click', function () {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/AiHandle/Index?handler=LoadImages");
+        xhr.onload = function () {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                var datas = JSON.parse(xhr.responseText);
+                const imageContainer = document.getElementById('imageContainer');
+
+                datas.forEach(function (image) {
+                    const imageElement = document.createElement('div');
+                    imageElement.classList.add('text-center', 'col-md-6', 'image-container');
+                    imageElement.innerHTML = `<img class="imagAi" src="${image.Image}" alt="Image">`;
+                    imageContainer.appendChild(imageElement);
+                    //imageContainer.insertAdjacentHTML('beforeend', imageElement);
+                    console.log(imageElement);
+                });
+
+            }
+            else {
+                console.error(xhr.statusText);
+            }
+        };
+        xhr.send();
+    });
+</script>*@

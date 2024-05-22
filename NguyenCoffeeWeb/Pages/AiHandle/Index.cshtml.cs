@@ -20,8 +20,9 @@ namespace NguyenCoffeeWeb.Pages.AiHandle
         public IActionResult OnGetLoadImages()
         {
             // Handle POST request to load images
-            imagesList = _context.ImageAis.ToList();   
-            return new JsonResult(imagesList);
+            imagesList = _context.ImageAis.ToList();
+            var s = new JsonResult(imagesList);
+            return s;
         }
     }
 }

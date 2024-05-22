@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffee\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffee\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffee\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
         "projectName": "NguyenCoffeeWeb",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffee\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffee\\NguyenCoffeeWeb\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
