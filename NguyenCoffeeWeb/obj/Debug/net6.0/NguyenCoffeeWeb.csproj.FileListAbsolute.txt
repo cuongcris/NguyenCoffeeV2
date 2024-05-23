@@ -3168,3 +3168,4 @@ D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb\obj\Debug\net6.0\scopedcss\proje
 D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb\obj\Debug\net6.0\NguyenCoffeeWeb.csproj.CopyComplete
 D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb\obj\Debug\net6.0\NguyenCoffeeWeb.genruntimeconfig.cache
 D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb\obj\Debug\net6.0\ref\NguyenCoffeeWeb.dll
+C:\Users\Admin\Desktop\EXE Project\NguyenCoffeeV2\NguyenCoffeeV2\NguyenCoffeeWeb\bin\Debug\net6.0\SixLabors.ImageSharp.dll

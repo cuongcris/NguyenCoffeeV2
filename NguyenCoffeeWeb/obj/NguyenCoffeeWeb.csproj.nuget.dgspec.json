@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {}
   },
   "projects": {
-    "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
         "projectName": "NguyenCoffeeWeb",
-        "projectPath": "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

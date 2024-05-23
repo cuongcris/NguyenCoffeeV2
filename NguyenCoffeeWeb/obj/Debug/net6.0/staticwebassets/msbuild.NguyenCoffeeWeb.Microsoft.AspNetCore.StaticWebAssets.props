@@ -96,6 +96,86 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\about.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\3e8ac1f5-ebd9-42f5-943a-ee39b7e4eb5b_anashel-rpg.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/AiImage/3e8ac1f5-ebd9-42f5-943a-ee39b7e4eb5b_anashel-rpg.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\3e8ac1f5-ebd9-42f5-943a-ee39b7e4eb5b_anashel-rpg.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\63f88583-73ea-42fd-b12a-3f0636615f68_dark-sushi-mix-v2-25.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/AiImage/63f88583-73ea-42fd-b12a-3f0636615f68_dark-sushi-mix-v2-25.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\63f88583-73ea-42fd-b12a-3f0636615f68_dark-sushi-mix-v2-25.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\8683d635-c5a5-4ed4-ad45-041e0065993a_neverending-dream.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/AiImage/8683d635-c5a5-4ed4-ad45-041e0065993a_neverending-dream.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\8683d635-c5a5-4ed4-ad45-041e0065993a_neverending-dream.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\dae3762c-a5e7-4df5-967f-09527d6a2b2c_eimis-anime-diffusion-v1-0.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/AiImage/dae3762c-a5e7-4df5-967f-09527d6a2b2c_eimis-anime-diffusion-v1-0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\dae3762c-a5e7-4df5-967f-09527d6a2b2c_eimis-anime-diffusion-v1-0.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\f2bb10f7-641b-464f-a4d9-6271029bd2de_anashel-rpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/AiImage/f2bb10f7-641b-464f-a4d9-6271029bd2de_anashel-rpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\AiImage\f2bb10f7-641b-464f-a4d9-6271029bd2de_anashel-rpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\bg.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>NguyenCoffeeWeb</SourceId>
@@ -144,12 +224,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\carousel-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\3decc0b7-1cc1-47f1-91d0-88dda61fd4dd_1.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\2555217e-b942-436f-9233-0b5d7c2629da_ImgCreator.ai  beautiful girl wears blue dress.webp))">
       <SourceType>Package</SourceType>
       <SourceId>NguyenCoffeeWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/NguyenCoffeeWeb</BasePath>
-      <RelativePath>img/customerUpload/3decc0b7-1cc1-47f1-91d0-88dda61fd4dd_1.jpg</RelativePath>
+      <RelativePath>img/customerUpload/2555217e-b942-436f-9233-0b5d7c2629da_ImgCreator.ai  beautiful girl wears blue dress.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -158,7 +238,71 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\3decc0b7-1cc1-47f1-91d0-88dda61fd4dd_1.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\2555217e-b942-436f-9233-0b5d7c2629da_ImgCreator.ai  beautiful girl wears blue dress.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\bb803762-fdf7-4734-991b-7a5a7956cbcc_445994920_963700085156993_6391065923037312943_n.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/customerUpload/bb803762-fdf7-4734-991b-7a5a7956cbcc_445994920_963700085156993_6391065923037312943_n.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\bb803762-fdf7-4734-991b-7a5a7956cbcc_445994920_963700085156993_6391065923037312943_n.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\bdc6284f-6ac3-436c-9c9a-7e15ff1bb5e1_414869834_1156190678697317_712913906056359731_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/customerUpload/bdc6284f-6ac3-436c-9c9a-7e15ff1bb5e1_414869834_1156190678697317_712913906056359731_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\bdc6284f-6ac3-436c-9c9a-7e15ff1bb5e1_414869834_1156190678697317_712913906056359731_n.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\be854774-95d8-4f4e-8a8a-6e5919039a75_4_png.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/customerUpload/be854774-95d8-4f4e-8a8a-6e5919039a75_4_png.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\be854774-95d8-4f4e-8a8a-6e5919039a75_4_png.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\f6daaae1-0f47-47aa-bdc7-bd4be1fae0d0_1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>NguyenCoffeeWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NguyenCoffeeWeb</BasePath>
+      <RelativePath>img/customerUpload/f6daaae1-0f47-47aa-bdc7-bd4be1fae0d0_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\customerUpload\f6daaae1-0f47-47aa-bdc7-bd4be1fae0d0_1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\menu-1.jpg))">
       <SourceType>Package</SourceType>

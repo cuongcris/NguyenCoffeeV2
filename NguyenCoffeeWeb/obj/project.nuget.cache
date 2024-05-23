@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBmrCd/QGGrfVrQFwAG1eu+xO9GRt5itlJfFeaZnLCeuRynzOieqY5c2q8dboAWllnDLtoTFilLZ6qLIRz+N6Q==",
+  "dgSpecHash": "LM/QbUwteshwH6yir26p+JMqwsAW/r6kwJhitPS0gH09FcyaazLS6rDv+XQa0x6FMkR3ygY24xHaUILEx3Uysg==",
   "success": true,
-  "projectFilePath": "D:\\workspace-dotnet\\CoffeeHouse\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\NguyenCoffeeWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

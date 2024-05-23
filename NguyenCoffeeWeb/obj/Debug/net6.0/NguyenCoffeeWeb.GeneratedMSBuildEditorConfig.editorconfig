@@ -9,153 +9,153 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NguyenCoffeeWeb
 build_property.RootNamespace = NguyenCoffeeWeb
-build_property.ProjectDir = D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb\
+build_property.ProjectDir = C:\Users\Admin\Desktop\EXE Project\NguyenCoffeeV2\NguyenCoffeeV2\NguyenCoffeeWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\workspace-dotnet\CoffeeHouse\NguyenCoffeeWeb
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\EXE Project\NguyenCoffeeV2\NguyenCoffeeV2\NguyenCoffeeWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Accounts/Create.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Accounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Accounts/Delete.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Accounts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Accounts/Details.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Accounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Accounts/Edit.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Accounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Accounts/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Accounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Categories/Create.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Categories/Delete.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Categories/Details.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Categories/Edit.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Categories/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Products/Create.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Products/Delete.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Products/Details.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Products/Edit.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Admin/Products/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Admin/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/AiHandleDemo/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/AiHandleDemo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlIYW5kbGVEZW1vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/AiHandleDemo/Token.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/AiHandleDemo/Token.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlIYW5kbGVEZW1vXFRva2VuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/AiHandle/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/AiHandle/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlIYW5kbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Authentication/Login.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Authentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Authentication/Logout.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Authentication/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Authentication/Register.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Authentication/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Cart/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Customer/ChangePass.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Customer/ChangePass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ2hhbmdlUGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Customer/Details.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Customer/History.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Customer/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Customer/Profile.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Customer/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Error.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Menu.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/OnlineProducts/Index.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/OnlineProducts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT25saW5lUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/OnlineProducts/OnlineProductDetail.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/OnlineProducts/OnlineProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT25saW5lUHJvZHVjdHNcT25saW5lUHJvZHVjdERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Privacy.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace-dotnet/CoffeeHouse/NguyenCoffeeWeb/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/EXE Project/NguyenCoffeeV2/NguyenCoffeeV2/NguyenCoffeeWeb/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-384g0ntpq7

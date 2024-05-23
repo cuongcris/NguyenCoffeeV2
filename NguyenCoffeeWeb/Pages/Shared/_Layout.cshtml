@@ -136,12 +136,31 @@
         display: block;
     }
 
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+        .navbar-brand img {
+            max-height: 50px; /* hoặc chiều cao bạn muốn */
+            margin-right: 10px; /* khoảng cách giữa ảnh và văn bản */
+        }
+
+        .navbar-brand h1 {
+            font-family: courier, arial, helvetica;
+        }
+
 </style>
 <body>
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a asp-page="/Index" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white" style="font-family:courier,arial,helvetica;">Nguyên Cà Phê</h1>
+    <div style="background-color:#413c2d;" class="container-fluid p-0">
+        <nav style="height:85px;" class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a asp-page="/Index"  class="navbar-brand d-flex align-items-center px-lg-4 m-0">
+                <div>
+                    <img src="https://lh3.googleusercontent.com/u/0/d/12gFnC_wmQLUhc0y_8cwKQSt82gzzI5hG=w1920-h912-iv2" alt="Logo" style="max-height: 50px; margin-right: 30px;" />
+                </div>
+                <div style="margin-top:15px;">
+                    <h1 class="m-0 display-4 text-uppercase text-white" style="font-family:courier,arial,helvetica;font-size:30px;">Nguyên Cà Phê</h1>
+                </div>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -165,12 +184,12 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(218, 159, 91)" class="bi bi-person-fill" viewBox="0 0 16 16" style="transform: scale(1.5);">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                             </svg>
-                            <p style="margin-left: 15px; color:rgb(218, 159, 91); display: flex; align-items: center; margin-bottom: 0; margin-top: 0;">Hello @acc.FullName</p>
+                            <p style="margin-left: 15px; color:rgb(218, 159, 91); margin-bottom: 0; margin-top: 0;">Hello @acc.FullName</p>
                             <ul class="dropdown-menu" style="height: auto;width: 261.6px;" id="dropdownMenu">
                                 <li><a asp-page="/Customer/Profile" class="nav-item nav-link active">Profile</a></li>
                                 <li><a asp-page="/Customer/ChangePass" class="nav-item nav-link active">Change Password</a></li>
                                 <li><a asp-page="/Customer/History" class="nav-item nav-link active">History</a></li>
-                                @if(acc.Type == 0)
+                                @if (acc.Type == 0)
                                 {
                                     <li><a href="/Admin/Accounts/Index" class="nav-item nav-link active">Account Management</a></li>
                                     <li><a href="/Admin/Categories/Index" class="nav-item nav-link active">Categories Management</a></li>
@@ -179,26 +198,18 @@
                                 <li><a asp-page="/Authentication/Logout" class="nav-item nav-link active">Logout</a></li>
                             </ul>
                         </div>
-
                     }
                 </div>
             </div>
-
         </nav>
     </div>
-    <!-- Navbar End -->
-@*    <div class="container">*@
-        @*<main role="main" class="pb-3">
-            @RenderBody()
-        </main>*@
-
-            @RenderBody()
-
-    @*</div>*@
+      <div class="main">
+         @RenderBody()
+      </div>
 
     <!-- Footer Start -->
-    <div style="margin-top:auto;">
-        <div style="height:400px" class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+    <div>
+        <div  class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
             <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
                 <div class="col-lg-3 col-md-6 ">
                     <h4 class="text-white text-uppercase " style="letter-spacing: 3px;">Get In Touch</h4>
@@ -351,9 +362,6 @@
                 messageContainer.appendChild(avatarImg);
 
             }
-
-
-
             return messageContainer;
         }
 
