@@ -22,7 +22,7 @@
         display: none;
     }
 </style>
-<div class="container-fluid p-0 ">
+@*<div class="container-fluid p-0 ">
     <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active setheight-img">
@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>*@
 <div class="container-fluid pt-5">
     <div class="container">
         <h1 class="display-4 text-center mb-5">Image AI</h1>
@@ -75,6 +75,45 @@
         displaySelectedImage(this);
     });
 </script>
+<script>
+    $(document).ready(function () {
+        $('#btnSubmit').click(function () {
+            const file = $('#imageInput')[0].files[0];
+            if (!file) {
+                alert("Please select an image file to upload.");
+                return;
+            }
+            console.log("click")
+               const formData = new FormData();
+                formData.append('imageInput', file);  // Adjust key name if needed
+            $.ajax({
+                url: "/AiHandle/Index?handler=LoadImages?fileName=" + file.name,
+                type: "POST",
+                dataType: "json",
+                data: formData,
+                processData: false,
+                contentType: false,  // Optional: Explicitly set Content-Type
+                success: function (datas) {
+                    const imageContainer = document.getElementById('imageContainer');
+                    imageContainer.innerHTML = ''; // Clear previous images
+                    console.log(datas);
+                    datas.forEach(function (image) {
+                        const imageElement = document.createElement('div');
+                        imageElement.classList.add('text-center', 'col-md-6', 'image-container');
+                        imageElement.innerHTML = `<img class="imagAi" src="${image.image}" alt="Image">`;
+                        imageContainer.appendChild(imageElement);
+                        console.log(imageElement);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("JQuery AJAX error: ", error);
+                }
+            });
+        });
+    });
+
+
+</script>
 <script >
         $(document).ready(function () {
         $('#btnSubmit').click(function () {
@@ -100,30 +139,5 @@
                 }
             });
         });
-    });</script>
-@*<script>
-        document.getElementById('btnSubmit').addEventListener('click', function () {
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "/AiHandle/Index?handler=LoadImages");
-        xhr.onload = function () {
-            if (xhr.status >= 200 && xhr.status < 300) {
-                var datas = JSON.parse(xhr.responseText);
-                const imageContainer = document.getElementById('imageContainer');
-
-                datas.forEach(function (image) {
-                    const imageElement = document.createElement('div');
-                    imageElement.classList.add('text-center', 'col-md-6', 'image-container');
-                    imageElement.innerHTML = `<img class="imagAi" src="${image.Image}" alt="Image">`;
-                    imageContainer.appendChild(imageElement);
-                    //imageContainer.insertAdjacentHTML('beforeend', imageElement);
-                    console.log(imageElement);
-                });
-
-            }
-            else {
-                console.error(xhr.statusText);
-            }
-        };
-        xhr.send();
     });
-</script>*@
+ </script>

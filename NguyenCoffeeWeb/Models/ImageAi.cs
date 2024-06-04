@@ -7,9 +7,9 @@ namespace NguyenCoffeeWeb.Models
     {
         public long Id { get; set; }
         public DateTime CreatedAt { get; set; }
-        public Guid? UserId { get; set; }
-        public string? Image { get; set; }
-
+        public Guid UserId { get; set; }
+        public string Model { get; set; }
+        public byte[] ImageData { get; set; }
         public virtual Account? User { get; set; }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 using NguyenCoffeeWeb.AiGenerator;
+using NguyenCoffeeWeb.Models;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 
@@ -12,7 +14,7 @@ namespace NguyenCoffeeWeb.Pages.AiHandleDemo
 
         public ActionResult OnGet()
         {
-            ImagePaths = new string[4] { "img/menu-1.jpg", "img/menu-1.jpg", "img/menu-1.jpg", "img/menu-1.jpg" };
+            ImagePaths = new string[4] { "img/DemoImage/demo1.jpg", "img/DemoImage/demo2.jpg", "img/DemoImage/demo3.jpg", "img/DemoImage/demo4.jpg" };
             return Page();
         }
         public async Task<IActionResult> OnPostAsync(IFormFile imageFile)
@@ -32,12 +34,25 @@ namespace NguyenCoffeeWeb.Pages.AiHandleDemo
                         image.Mutate(x => x.Resize((int)(image.Width / rate), (int)(image.Height / rate)));
                     }
                     //end
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
+
+                    var accJson = HttpContext.Session.GetString("Account"); 
+                    var acc = accJson != null ? JsonConvert.DeserializeObject<Account>(accJson) : null;
+                    var userId = Guid.Empty;
+                    if (acc != null) {
+                        userId = acc.Id;
+                    }
+                    else
+                    {
+                        userId = Guid.NewGuid();
+                        HttpContext.Session.SetString("userId",userId.ToString());
+                    }
+                    var uniqueFileName = userId + "_" + imageFile.FileName;
                     var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
                     await image.SaveAsJpegAsync(filePath);
+                    //ImagePaths = await GetAiImage.GenAndWriteImgsId(filePath, userId);
 
-                    ImagePaths = GetAiImage.GenAndWriteImgs(filePath);
+                    ImagePaths = GetAiImage.GenAndWriteImgs(filePath,userId);
                 }
             }
             return Page();

@@ -12,6 +12,17 @@
         color: white;
     }
 
+    .image-selection .image-container:hover {
+        /* Hover styles for all images */
+        opacity: 0.8; /* Reduce opacity to indicate selection */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+    .image-selection .image-container input[type="radio"]:checked ~ .clickable-image {
+        border: 3px solid #007bff; /* Customize border color */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional subtle shadow */
+    }
+
     .imagAi {
         width: 300px;
         height: 300px;
@@ -21,6 +32,10 @@
 
     .submit-btn {
         display: none;
+    }
+
+    .selected {
+        border: 2px solid blue; /* You can style the selected image as you like */
     }
 </style>
 <div class="container-fluid p-0 ">
@@ -34,7 +49,10 @@
 </div>
 <div class="container-fluid pt-5">
     <div class="container">
-        <h1 class="display-4 text-center mb-5">Image AI</h1>
+        <h4 class="display-4 text-center ">Chọn hình từ máy của bạn </h4>
+        <p class="text-center" style="color:gray;">
+            Hệ thống sẽ biến tấm hình của bạn trở nên tuyệt vời hơn,hãy trải nghiệm điều này. Nếu chưa sẵn sàng trải nghiệm <a class="btn" style="background-color:lawngreen;border-radius:12px " value="" asp-page="/Cart/CheckoutOrder" asp-route-id="null">Click here to order </a>
+        </p>
         <div class="text-center mb-2">
             <button class="btn btn-primary" onclick="document.getElementById('imageInput').click()">Choose Image</button>
         </div>
@@ -45,15 +63,23 @@
                 <button class="btn btn-primary ">Submit</button>
             </div>
         </form>
+        <form method="post" action="Order">
+            <div class="row image-selection">
+                @foreach (var item in Model.ImagePaths)
+                {
+                    <div class="text-center col-md-6 ">
+                        <label for="image-{{item}}">
+                            <input type="radio" id="image-{{item}}" name="selectedImage" value="@item" hidden />
+                            <img class="imagAi clickable-image image-container" src="@item" alt="Image">
+                        </label>
+                        <div class="text-center mb-2">
+                            <a class="btn btn-primary" asp-page="/Cart/CheckoutOrder" asp-route-id="@item">View Order</a>
+                        </div>
+                    </div>
+                }
+            </div>
 
-        <div class="row">
-            @foreach (var item in Model.ImagePaths)
-            {
-                <div class="text-center col-md-6 image-container">
-                    <img class="imagAi" src=@item alt="Image 1">
-                </div>
-            }
-        </div>
+        </form>
     </div>
 </div>
 <script>
@@ -80,4 +106,18 @@
     document.getElementById('imageInput').addEventListener('change', function () {
         displaySelectedImage(this);
     });
+    $(document).ready(function () {
+        // Initially disable button if no image is selected (optional)
+        if ($("input[name='selectedImage']:checked").length === 0) {
+            $("button[type='submit']").prop('disabled', true);
+        }
+
+        // Handle image click and radio button selection
+        $(".clickable-image").click(function () {
+            $(this).prev().prop('checked', true); // Select corresponding radio button
+            $("button[type='submit']").prop('disabled', false); // Enable button
+        });
+    });
+
+
 </script>

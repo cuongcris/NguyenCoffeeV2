@@ -30,6 +30,36 @@
         color: white;
     }
 
+    .add-to-order,
+    .remove-to-order {
+        padding: inherit;
+        width: 45%;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .add-to-order {
+        background-color: #6a695e;
+    }
+
+        .add-to-order:hover {
+            background-color: #8b8a79;
+            transform: scale(1.05);
+        }
+
+    .remove-to-order {
+        padding: 0;
+        background-color: #b5ad82;
+    }
+
+        .remove-to-order:hover {
+            background-color: #d1cda6;
+            transform: scale(1.05);
+        }
     /*.menu-price {
         position: absolute;
         margin: 0;
@@ -66,7 +96,7 @@
         <h1 class="display-4 text-center mb-3">Menu & Pricing</h1>
         <div class="row">
             <div class="col-lg-6 ">
-                <h1 class="mb-5 text-center">Hot Coffee</h1>
+                <h1 class="mb-5 text-center">Special Coffee</h1>
                
                 @foreach (var item in Model.Products.Take(4).OrderBy(s => s.Description.Length))
                 {
@@ -83,7 +113,7 @@
                 }
             </div>
             <div class="col-lg-6">
-                <h1 class="mb-5 text-center">Cold Coffee</h1>
+                <h1 class="mb-5 text-center">Best seller </h1>
                 @foreach (var item in Model.Products.Skip(4).OrderBy(s=>s.Description.Length))
                 {
                     <div class="row align-items-center mb-5">
@@ -117,6 +147,7 @@
                                     @*hot coffee*@
                                     @foreach (var item in Model.Products.Take(4))
                                     {
+                                        <div hidden id="@item.Id"></div>
                                         <div class="row align-items-center mb-5">
                                             <div class="col-6 col-sm-7">
                                                 <img style="width:146px;height:112px;" class="imageWith rounded-circle mb-3 mb-sm-0" src="@item.Image" alt="">
@@ -127,8 +158,8 @@
                                                     <p style="font-size:17px;" class="text-white product-name">@item.ProductName</p>
                                                 </div>
                                                 <div >
-                                                    <button style="padding:inherit; width:45%;background-color:red;" class="add-to-order">+</button>
-                                                    <button style="padding:0px; width:45%;background-color:greenyellow;" class="remove-to-order">-</button>
+                                                    <button  class="add-to-order">+</button>
+                                                    <button class="remove-to-order">-</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -149,8 +180,8 @@
                                                     <p style="font-size:17px;" class="text-white product-name">@item.ProductName</p>
                                                 </div>
                                                 <div>
-                                                    <button style="padding:inherit; width:45%;background-color:red;" class="add-to-order">+</button>
-                                                    <button style="padding:0px; width:45%;background-color:greenyellow;" class="remove-to-order">-</button>
+                                                    <button style="padding:inherit; width:45%;background-color:#6a695e;" class="add-to-order">+</button>
+                                                    <button style="padding:0px; width:45%;background-color:#b5ad82;" class="remove-to-order">-</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -163,8 +194,8 @@
                 <div class="col-lg-5">
                     <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                         <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
-                        <form class="mb-5">
-                            <textarea readonly class="form-control bg-transparent border-primary p-4" style="margin-bottom:10px; height:200px;width:100%;color:white;font-weight:100;" placeholder="Your order here..."></textarea>
+                        <form  method="post" class="mb-5">
+                            <textarea name="CoffeeOrderList" readonly class="form-control bg-transparent border-primary p-4" style="margin-bottom:10px; height:200px;width:100%;color:white;font-weight:100;overflow: hidden; " placeholder="Your order here..."></textarea>
                             <div class="form-group d-flex">
                                 <input class="flex-grow-2 form-control bg-transparent border-primary p-4 m-2 " placeholder="Your Name.." style="color:white;height:auto;"></input>
                                 <select class="flex-grow-1 form-control bg-transparent border-primary p-4 m-2" style="height:auto;width:40%;">
@@ -176,13 +207,10 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <h3 class="text-white">Total Price: <span id="total-price">0</span></h3>
+                                <h3 class="text-white">Total Price: <span name="totalPrice" id="total-price">0</span></h3>
                             </div>
                             <div>
-                                <button id="btnOrder" class="btn btn-primary btn-block font-weight-bold py-3" asp-page="AiHandle/Index" type="submit">Book Now</button>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary btn-block font-weight-bold py-3" asp-page="AiHandleDemo/Index" type="submit">Book Now Demo</button>
+                                <button class="btn btn-primary btn-block font-weight-bold py-3" @*asp-page="AiHandleDemo/Index" *@type="submit">Book Now Demo</button>
                             </div>
                         </form>
                     </div>
@@ -194,6 +222,7 @@
 </div>
 <!-- Reservation End -->
 <script>
+    //auto description fix length
     document.addEventListener("DOMContentLoaded", function () {
         const descriptions = document.querySelectorAll('.description');
 
@@ -210,11 +239,12 @@
         const totalPriceElement = document.getElementById('total-price');
         let totalPrice = 0;
 
+        //auto height text area
         function adjustTextareaHeight(textarea) {
             textarea.style.height = 'auto';
             textarea.style.height = (textarea.scrollHeight) + 'px';
         }
-
+        //update total price
         function updateTotalPrice() {
             let orderText = orderTextarea.value.trim();
             let orderLines = orderText ? orderText.split('\n') : [];
@@ -240,6 +270,7 @@
             }
         }
 
+        //handle button add order
         addToOrderButtons.forEach(button => {
             button.addEventListener('click', function () {
                 const productName = this.closest('.row').querySelector('.product-name').textContent;
@@ -262,6 +293,7 @@
                 updateTotalPrice();
             });
         });
+        //handle button remove order
         removeOrderButtons.forEach(button => {
             button.addEventListener('click', function () {
                 const productName = this.closest('.row').querySelector('.product-name').textContent;
@@ -287,9 +319,10 @@
                 updateTotalPrice();
             });
         });
+
+        //update text of text area
         orderTextarea.addEventListener('input', function () {
             adjustTextareaHeight(orderTextarea);
-            console.log("update")
             updateTotalPrice();
         });
 
