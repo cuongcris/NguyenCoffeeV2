@@ -98,7 +98,7 @@
             <div class="col-lg-6 ">
                 <h1 class="mb-5 text-center">Special Coffee</h1>
                
-                @foreach (var item in Model.Products.Take(4).OrderBy(s => s.Description.Length))
+                @foreach (var item in Model.Products.Take(3).OrderBy(s => s.Description.Length))
                 {
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
@@ -114,7 +114,7 @@
             </div>
             <div class="col-lg-6">
                 <h1 class="mb-5 text-center">Best seller </h1>
-                @foreach (var item in Model.Products.Skip(4).OrderBy(s=>s.Description.Length))
+                @foreach (var item in Model.Products.Skip(3).OrderBy(s=>s.Description.Length))
                 {
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
@@ -145,7 +145,7 @@
                                @*hot coffee*@
                                 <div class="col-lg-6">
                                     @*hot coffee*@
-                                    @foreach (var item in Model.Products.Take(4))
+                                    @foreach (var item in Model.Products.Take(3))
                                     {
                                         <div hidden id="@item.Id"></div>
                                         <div class="row align-items-center mb-5">
@@ -168,7 +168,7 @@
                                 @*cold coffee*@
                                 <div class="col-lg-6">
                                     @*hot coffee*@
-                                    @foreach (var item in Model.Products.Skip(4))
+                                    @foreach (var item in Model.Products.Skip(3))
                                     {
                                         <div class="row align-items-center mb-5">
                                             <div class="col-6 col-sm-7">

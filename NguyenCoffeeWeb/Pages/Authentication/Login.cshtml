@@ -8,16 +8,7 @@
         height: 120px;
     }
 </style>
-<!-- Carousel Start -->
-<div class="container-fluid p-0 mb-5">
-    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active setheight-img">
-                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
-            </div>
-        </div>
-    </div>
-</div>
+
 <section class="vh-180 align-items-center">
     <div class="container py-5 h-100 align-items-center">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -26,8 +17,11 @@
                     <div class=" align-items-center">
                         <div class="card-body p-4 p-lg-5 text-black">
                             <form asp-page="./Login" method="post" class="align-items-center">
-                                <h1 class="display-4">Please Log in Here</h1>
+                                <div class="text-center">
+                                     <h1 class="display-4"> Login </h1>
                                 <p>Enter yours details below</p>
+                                </div>
+                               
                                 <div class="mb-3 w-58">
                                     <label class="form-label" for="form2Example17">Username</label>
                                     <input type="text" asp-for="Account.Email" id="form2Example17" class="form-control form-control-lg" />

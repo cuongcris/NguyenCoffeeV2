@@ -16,7 +16,9 @@ namespace NguyenCoffeeWeb.Pages.Cart
         {
             _context = context;
         }
-        public IList<Item>? cart { get; set; } = new List<Item>();
+        public string OrderId { get; set; }
+        public string OrderOnlineId { get; set; }
+        public IList<CardItem>? cart { get; set; } = new List<CardItem>();
 
         public IActionResult OnGet()
         {
@@ -29,37 +31,53 @@ namespace NguyenCoffeeWeb.Pages.Cart
 
             }
             Account acc = JsonConvert.DeserializeObject<Account>(accJson);
-            cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");       
+            cart = SessionHelper.GetObjectFromJson<List<CardItem>>(HttpContext.Session, "cart");       
             cart = cart?.Where(x => x.UserId.Equals(acc.Id)).ToList();
+            OrderId = acc.Id+ "card";
             return  Page();
 
 
         }
         public async Task<IActionResult> OnPost()
         {
-            string accJson = HttpContext.Session.GetString("Account")!;
-            Account acc = JsonConvert.DeserializeObject<Account>(accJson)!;
-            cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
-            cart = cart?.Where(x => x.UserId.Equals(acc.Id)).ToList();
-
-
-            string orderOnlineId = GenerateUniqueString();
-            _context.OrdersOnlines.Add(new OrdersOnline() { UserId = acc.Id, CreatedAt = DateTime.Now, 
-                Id = orderOnlineId, ShippedDate = DateTime.Now.AddDays(5),
-                PackagingDate = DateTime.Now.AddDays(5),Status = "Shipping" });
-            await   _context.SaveChangesAsync();
-            
-            
-            foreach (var item in cart!)
+            try
             {
-                _context.OrderDetails.Add(new OrderDetail() {ProductId = item.Product.Id, OrderId = orderOnlineId, 
-                    UnitPrice = (float)item.Product.UnitPrice!, Quanlity = item.Quantity  });
+                string accJson = HttpContext.Session.GetString("Account")!;
+                Account acc = JsonConvert.DeserializeObject<Account>(accJson)!;
+                cart = SessionHelper.GetObjectFromJson<List<CardItem>>(HttpContext.Session, "cart");
+                cart = cart?.Where(x => x.UserId.Equals(acc.Id)).ToList();
+                OrderOnlineId = GenerateUniqueString();
+                _context.OrdersOnlines.Add(new OrdersOnline()
+                {
+                    UserId = acc.Id,
+                    CreatedAt = DateTime.Now,
+                    Id = OrderOnlineId,
+                    ShippedDate = DateTime.Now.AddDays(5),
+                    PackagingDate = DateTime.Now.AddDays(5),
+                    Status = "Shipping"
+                });
                 await _context.SaveChangesAsync();
+                foreach (var item in cart!)
+                {
+                    var newOrder = new OrderDetail()
+                    {
+                        ProductId = item.Product.Id,
+                        OrderId = OrderOnlineId,
+                        UnitPrice = (float)item.Product.UnitPrice!,
+                        Quanlity = item.Quantity
+                    };
+                    _context.OrderDetails.Add(newOrder);
+                    await _context.SaveChangesAsync();
+                }
+                HttpContext.Session.Remove("cart");
+                cart.Clear();
+                ViewData["msg"] = "Payment Successfully!!!!!";
+                return Page();
             }
-            HttpContext.Session.Remove("cart");
-            cart.Clear();
-            ViewData["msg"] = "Payment Successfully!!!!!";
-            return Page();
+            catch {
+                return RedirectToPage("/Authentication/Login");
+
+            }
         }
 
         public static string GenerateUniqueString()

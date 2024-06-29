@@ -16,7 +16,7 @@ namespace NguyenCoffeeWeb.Pages.OnlineProducts
 		private readonly NguyenCoffeeWeb.Models.postgresContext _context;
 
 
-		public List<Item> cart;
+		public List<CardItem> cart;
 		public OnlineProductDetailModel(NguyenCoffeeWeb.Models.postgresContext context)
 		{
 			_context = context;
@@ -54,11 +54,11 @@ namespace NguyenCoffeeWeb.Pages.OnlineProducts
 				return Redirect("/Authentication/Login");
 			}
 			Account acc = JsonConvert.DeserializeObject<Account>(accJson);
-			cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
+			cart = SessionHelper.GetObjectFromJson<List<CardItem>>(HttpContext.Session, "cart");
 			if (cart == null)
 			{
-				cart = new List<Item>();
-				cart.Add(new Item()
+				cart = new List<CardItem>();
+				cart.Add(new CardItem()
 				{
 					Product = product,
 					Quantity = 1,
@@ -71,7 +71,7 @@ namespace NguyenCoffeeWeb.Pages.OnlineProducts
 				var index = Exists(cart, product.Id);
 				if (index == -1)
 				{
-					cart.Add(new Item()
+					cart.Add(new CardItem()
 					{
 						Product = product,
 						Quantity = 1,
@@ -87,7 +87,7 @@ namespace NguyenCoffeeWeb.Pages.OnlineProducts
 			}
 			return Redirect("/Cart");
 		}
-		private int Exists(List<Item> cart, Guid id)
+		private int Exists(List<CardItem> cart, Guid id)
 		{
 			for (int i = 0; i < cart.Count; i++)
 			{

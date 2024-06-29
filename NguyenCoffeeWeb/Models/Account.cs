@@ -8,7 +8,6 @@ namespace NguyenCoffeeWeb.Models
         public Account()
         {
             ImageAis = new HashSet<ImageAi>();
-            OrderInTables = new HashSet<OrderInTable>();
             OrdersOnlines = new HashSet<OrdersOnline>();
         }
 
@@ -22,7 +21,6 @@ namespace NguyenCoffeeWeb.Models
         public short? Type { get; set; }
 
         public virtual ICollection<ImageAi> ImageAis { get; set; }
-        public virtual ICollection<OrderInTable> OrderInTables { get; set; }
         public virtual ICollection<OrdersOnline> OrdersOnlines { get; set; }
     }
 }

@@ -126,11 +126,6 @@ namespace NguyenCoffeeWeb.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("public_OrderDetail_OrderId_fkey");
 
-                entity.HasOne(d => d.OrderInTable)
-                    .WithMany(p => p.OrderDetails)
-                    .HasForeignKey(d => d.OrderInTableId)
-                    .HasConstraintName("public_OrderDetail_OrderInTableId_fkey");
-
                 entity.HasOne(d => d.Product)
                     .WithMany(p => p.OrderDetails)
                     .HasForeignKey(d => d.ProductId)
@@ -142,16 +137,14 @@ namespace NguyenCoffeeWeb.Models
             {
                 entity.ToTable("OrderInTable");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.HasIndex(e => e.Id, "OrderInTable_Id_key")
+                    .IsUnique();
+
+                entity.Property(e => e.Id).HasDefaultValueSql("auth.uid()");
 
                 entity.Property(e => e.CreatedAt)
                     .HasColumnName("created_at")
                     .HasDefaultValueSql("now()");
-
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.OrderInTables)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("public_OrderInTable_UserId_fkey");
             });
 
             modelBuilder.Entity<OrdersOnline>(entity =>

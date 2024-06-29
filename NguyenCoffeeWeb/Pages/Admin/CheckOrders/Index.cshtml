@@ -1,0 +1,56 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Admin.CheckOrders.IndexModel
+@{
+}
+
+<style>
+    .setheight-img {
+        height: 120px;
+    }
+
+
+    .textColorWhite {
+        color: white;
+    }
+
+    .imagAi {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+    }
+
+    .submit-btn {
+        display: none;
+    }
+</style>
+
+<div class="container-fluid pt-5">
+    <div class="container">
+        <h4 class="display-4 text-center ">Danh sách Orders </h4>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" id="imageInput" name="imageFile" style="display: none;" accept="image/*">
+            <div id="selectedImageContainer" class="text-center mb-2"></div>
+            <div id="submitButton" class="text-center mb-2 submit-btn">
+                <button class="btn btn-primary ">Submit</button>
+            </div>
+        </form>
+        <form method="post" action="Order">
+            <div class="row image-selection">
+                @foreach (var item in Model.OrderInTables)
+                {
+                    <div class="text-center col-md-6 ">
+                        <label for="image-{{item}}">
+                            <input type="radio" id="image-{{item}}" name="selectedImage" value="@item.ImageAi" hidden />
+                            <img class="imagAi clickable-image image-container" src="@item.ImageAi" alt="Image">
+                        </label>
+                        <div class="text-center mb-2">
+                            <a class="btn btn-primary" asp-page="/Cart/CheckoutOrder" asp-route-id="@item">View Order</a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,119 +1,317 @@
 ﻿@page
 @model NguyenCoffeeWeb.Pages.Cart.IndexModel
 @{
-    double ?totalCart = 0;
+    double? totalCart = 0;
+    var curredate = DateTime.UtcNow;
+    var shipdate = curredate.AddDays(3);
+    var orderId = Model.OrderId;
 }
-<style>
-     .setheight-img {
-         height: 120px;
-     }
 
-     .TitleOnlineProduct {
-         text-align: center;
-         margin-bottom: 50px;
-         padding-top: -50px;
-     }
-
-     .product-image {
-         width: 207px;
-         height: 207px;
-         object-fit: cover;
-     }
-</style>
-
-<!-- Carousel Start -->
-<div class="container-fluid p-0 mb-5">
-    <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active setheight-img">
-                <img class="w-100" src="~/img//carousel-1.jpg" alt="Image">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container py-5 h-80">
-    <div class="row d-flex justify-content-center align-items-center">
-        <div class="col py-5 h-80">
-            <div class="card">
-                <div class="card-body p-4">
-
-                    <div class="row">
-
-                        <div class="col-lg-8">
-                            <h1 class="text-success">@ViewData["msg"]</h1>
-                            @if (Model.cart != null)
-                            {
-                                foreach (var item in Model.cart)
-                                {
-                                    totalCart += item.Quantity * item.Product.UnitPrice;
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <div class="d-flex justify-content-between">
-
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div style="width: 90px;">
-                                                        <img src="@item.Product.Image">
-                                                    </div>
-                                                </div>
-
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div class="ms-3">
-                                                        <h5>@Html.DisplayFor(modelItem => item.Product.ProductName)</h5>
-                                                        <h6 class="fw-normal mb-0">Price: @Html.DisplayFor(modelItem => item.Product.UnitPrice) VND</h6>
-                                                        <h6 class="fw-normal mb-0">Quantity: @Html.DisplayFor(modelItem => item.Quantity)</h6>
-                                                    </div>
-                                                </div>
-
-                                                <div class="d-flex flex-row align-items-center">
-                                                    <div style="width: 160px;">
-                                                        <h5 class="fw-normal mb-0">Total: @(item.Quantity * item.Product.UnitPrice) VND</h5>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
+<section class="h-100 gradient-custom">
+    <div class="container py-5">
+        <div class="row d-flex justify-content-center my-4">
+            <div class="col-md-8">
+                <div class="card mb-1">
+                    <div class="card-header py-3">
+                        @if (@Model.cart?.Count() > 0 || @Model.cart == null)
+                        {
+                            <h5 class="mb-0">Cart - @Model.cart?.Count() items</h5>
+                        }else{
+                            <h5 class="mb-0">Đơn hàng đang trống , hãy order ở nút bên dưới</h5>
+                            <!-- The Modal -->
+                            <div id="successOrder" class="modal" style="display:block"> 
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <div class="text-center">
+                                        <h3>Đơn hàng đã thanh toán thành công, nhân vào đây để kiểm tra</h3>
                                     </div>
-                                }
-                            }
-                            else{
-                                <h1>Cart Empty</h1>
-                            }
+                                    <a asp-page="/Customer/History"  class="nav-item nav-link active">Xem đơn hàng</a>
 
-                        </div>
-                        <div class="col-lg-4">
-
-                            <div class="card bg-primary text-white rounded-3">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <h4 class="mb-0">Card details</h4>
-                                    </div>
-
-                                    <h6 class="small mb-2">Card type</h6>
-                                    <a href="#!" type="submit" class="text-white">
-                                        <i class="fab fa-cc-mastercard fa-2x me-2"></i>
-                                    </a>
-                                    <a href="#!" type="submit" class="text-white">
-                                        <i class="fab fa-cc-visa fa-2x me-2"></i>
-                                    </a>
-                                    <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
-
-                                    <hr class="my-4">
-                                    <div class="d-flex justify-content-between mb-4">
-                                        <p class="mb-2">Total</p>
-                                        <p class="mb-2">@totalCart VND</p>
-                                    </div>
-                                    
-                                    <div class="action">
-                                        <form method="post" action="">
-                                            <button type="submit" class="add-to-cart btn btn-default">Payment</button>
-                                        </form>
-                                    </div>     
                                 </div>
                             </div>
-                        </div>
+                        }
+                    </div>
+                    <div class="card-body">
+                        <!-- Single item -->
+                        @if (Model.cart != null)
+                        {
+                            foreach (var item in Model.cart)
+                            {
+                                totalCart += item.Quantity * item.Product.UnitPrice;
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                            <img src="@item.Product.Image"
+                                                 class="w-100" alt="@item.Product.Image" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Data -->
+                                        <p><strong>@item.Product.ProductName</strong></p>
+                                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm me-1 mb-2" data-mdb-tooltip-init
+                                                title="Remove item">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-danger btn-sm mb-2" data-mdb-tooltip-init
+                                                title="Move to the wish list">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                        <!-- Data -->
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Quantity -->
+                                        <div class="d-flex mb-4" style="max-width: 300px">
+                                            @*<button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 me-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <i class="fas fa-minus"></i>
+                                    </button>*@
+
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input readonly style="width:50px;" id="form1" min="0" name="quantity" value="@item.Quantity" type="number" class="form-control" />
+                                            </div>
+
+                                            @* <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary px-3 ms-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <i class="fas fa-plus"></i>
+                                    </button>*@
+                                        </div>
+                                        <!-- Quantity -->
+                                        <!-- Price -->
+                                        <p class="text-start text-md-center">
+                                            <strong>@(item.Quantity * item.Product.UnitPrice) VND</strong>
+                                        </p>
+                                        <!-- Price -->
+                                    </div>
+                                </div>
+                                <hr class="my-4" />
+                            }
+                        }
+                    </div>
+                    <a class="btn btn-primary" asp-page="/OnlineProducts/Index">Order More </a>
+                </div>
+                <div class="card mb-1">
+                    <div class="card-body">
+                        <p><strong>Expected shipping delivery</strong></p>
+                        <p class="mb-0">@curredate - @shipdate</p>
+                    </div>
+                </div>
+                <div class="card mb-1 mb-lg-0">
+                    <div class="card-body">
+                        <p><strong>We accept</strong></p>
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                             alt="Visa" />
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                             alt="American Express" />
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                             alt="Mastercard" />
+                        <img class="me-2" width="45px"
+                             src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.webp"
+                             alt="PayPal acceptance mark" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0">Summary</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul style="background-color" class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0 color-li">
+                                Products
+                                <span>@totalCart VND</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0 color-li">
+                                Shipping
+                                <span>Gratis</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3 color-li">
+                                <div>
+                                    <strong>Total amount</strong>
+                                    <strong>
+                                        <p class="mb-0">(including VAT)</p>
+                                    </strong>
+                                </div>
+                                <span><strong>@totalCart VND</strong></span>
+                            </li>
+                        </ul>
+                        <form id="checkoutForm" method="post" action="" style="display:none">
+                            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">
+                                Go to checkout
+                            </button>
+                        </form>
+                        @if(Model.cart != null){
+                            <button type="button" id="checkoutButton" class="btn btn-primary btn-lg btn-block">
+                                Go to checkout
+                            </button>
+                        }
+                        else{
+                            <button type="button" onclick="alert('Vui lòng order sản phẩm!')"  class="btn btn-primary btn-lg btn-block">
+                                Go to checkout
+                            </button>
+                        }
+                     
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<style>
+    /* Style for modal */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+        padding-top: 60px;
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        border-radius: 10px;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+</style>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+            <img src="https://img.vietqr.io/image/MB-0394565155-compact.png" />
+
+        </div>
+        <div class="text-center">
+            <h3>Vui lòng quét mã để thanh toán</h3>
+        </div>
+        <div class="text-center">
+            <h3 >Số tiển cần chuyển :<span id="PaymentAmount"></span> vnđ</h3>
+        </div>
+        <button id="confirmCheckout" class="btn btn-primary course_item_btn">Yes, go to checkout</button>
+    </div>
 </div>
+
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<script>
+    function generateGUID() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+        }
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+    }
+
+    var newGUID = generateGUID();
+
+    var totalCart = @totalCart;
+    var modal = document.getElementById("myModal");
+    var successOrder = document.getElementById("successOrder");
+    var btn = document.getElementById("checkoutButton");
+    var span = document.getElementsByClassName("close")[0];
+    var confirmButton = document.getElementById("confirmCheckout");
+    var paymentAmount = document.getElementById("PaymentAmount")
+
+    btn.onclick = function () {
+        modal.style.display = "block";
+        let QR = `https://img.vietqr.io/image/MB-0394565155-compact.png?amount=${totalCart}&addInfo=${newGUID}`
+        paymentAmount.innerText = totalCart;
+        setInterval(()=>{
+            checkPaid(totalCart, newGUID);
+        },1000);
+    }
+
+    async function checkPaid(price,orderId){
+        try{
+            const res = await fetch(
+                "https://script.google.com/macros/s/AKfycbwmHoWUZeDKUOjKeV66__50sau47bpaJngYlKS8wy4Al7iz7VID3W7K_3ODqxUTukKv/exec"
+            );
+            const data = await res.json();
+            const lastRow = data.data[data.data.length - 1]
+            lastContent = lastRow.content 
+            lastPrice = lastRow.price
+            if (lastPrice == price @*&& lastContent.includes(orderId)*@){
+                document.getElementById('checkoutForm').submit();
+                modal.style.display = "none";
+                successOrder.style.display = "block"
+            }
+        }
+        catch{
+
+        }
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+        successOrder.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+
+        }
+    }
+
+    // When the user clicks on the confirm button, submit the form
+    confirmButton.onclick = function () {
+        // Submit the form here
+        // For example, you can use the following line to submit the form
+        // document.forms[0].submit();
+        alert('Proceeding to checkout...');
+        modal.style.display = "none";
+    }
+</script>

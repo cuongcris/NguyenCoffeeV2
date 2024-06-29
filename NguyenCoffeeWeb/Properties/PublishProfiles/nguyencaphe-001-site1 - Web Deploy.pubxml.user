@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>False|2024-06-16T09:17:22.7514520Z;False|2024-06-16T16:12:58.3397942+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyDb">
+      <Value>User Id=postgres.xzoexxdjquaucxpnzgez%3bPassword=0976563934okK%40%3bServer=aws-0-ap-southeast-1.pooler.supabase.com%3bPort=5432%3bDatabase=postgres%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
