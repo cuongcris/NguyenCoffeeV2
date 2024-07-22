@@ -1,4 +1,5 @@
-﻿using NguyenCoffeeWeb.Models;
+﻿using Newtonsoft.Json;
+using NguyenCoffeeWeb.Models;
 using System.Text;
 
 namespace NguyenCoffeeWeb.AiGenerator
@@ -32,7 +33,7 @@ namespace NguyenCoffeeWeb.AiGenerator
         {
             HttpClient client = new();
             client.DefaultRequestHeaders.Add("Accept", "application/json");
-            client.DefaultRequestHeaders.Add("Authorization", "Bearer key-29829xHg42IG14ErOjwFfDsRmJ7EdvgPHRb3HcV0n5fsPgq7Zqntv4ZKxr73Lblc4aCjCjxNPVLDsnW25OVpN7rQYJfZL8ss");
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer key-43PKW9uZJhBk50iLfF22mE80O89zhykiOO3M5jQvCgDFOxecPX0ZnvW1itMrL8itY45LresdX9bPuCutNnGnHgzUnirV41Wb");
             // key-vDReGhvtskhFt7Rk68iWMISbqcAhqeLCXuniXo4DSS7z1loUFu47bCNekGosvPtRgZ2XWxsReli9dWcC2LN4jvfrC1nHd1w
             string base64Img = Convert.ToBase64String(File.ReadAllBytes(inputImage));
             string jsonBody = JsonBodyControlnet(model, base64Img);
@@ -40,11 +41,12 @@ namespace NguyenCoffeeWeb.AiGenerator
 
             HttpResponseMessage response = client.PostAsync(controlnetApiUrl, content).Result;
             string strData =  response.Content.ReadAsStringAsync().Result;
+            ImageResponse imageResponse = JsonConvert.DeserializeObject<ImageResponse>(strData);
 
             var AiImageFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img\\AiImage\\"+ userId);
             Directory.CreateDirectory(AiImageFolder);
             string filePath = $"{AiImageFolder}/{Guid.NewGuid()}_{ model }.{ output_format }";
-            File.WriteAllBytes(filePath, Convert.FromBase64String(strData.Split("\"")[3]));
+            File.WriteAllBytes(filePath, Convert.FromBase64String(imageResponse.Image));
             return "img\\AiImage\\"+ userId+"\\" + Path.GetFileName(filePath);
         }
         static string JsonBodyControlnet(string model, string base64Img)

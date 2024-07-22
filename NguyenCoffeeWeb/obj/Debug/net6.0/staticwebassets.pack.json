@@ -1,0 +1,1769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NguyenCoffeeWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NguyenCoffeeWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\MyStyle.css",
+      "PackagePath": "staticwebassets\\css\\MyStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\css\\styleDashboard.css",
+      "PackagePath": "staticwebassets\\css\\styleDashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\21fa3f7d-4089-4f59-842f-a94f8f922023_neverending-dream.png",
+      "PackagePath": "staticwebassets\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\21fa3f7d-4089-4f59-842f-a94f8f922023_neverending-dream.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\7ab70e66-5f94-403e-83d2-764f8eab59ad_anashel-rpg.png",
+      "PackagePath": "staticwebassets\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\7ab70e66-5f94-403e-83d2-764f8eab59ad_anashel-rpg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\9d8978ed-bf87-42bc-a31e-aec6078a230c_eimis-anime-diffusion-v1-0.png",
+      "PackagePath": "staticwebassets\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\9d8978ed-bf87-42bc-a31e-aec6078a230c_eimis-anime-diffusion-v1-0.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\e7121187-46c1-4eb0-9823-a118af6b52cd_dark-sushi-mix-v2-25.png",
+      "PackagePath": "staticwebassets\\img\\AiImage\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b\\e7121187-46c1-4eb0-9823-a118af6b52cd_dark-sushi-mix-v2-25.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\730d6d2e-7a74-4050-90ae-fabc8cf4f215_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\730d6d2e-7a74-4050-90ae-fabc8cf4f215_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\b0e7cc2a-857f-49f7-9ee4-c9c2eb13929b_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\b0e7cc2a-857f-49f7-9ee4-c9c2eb13929b_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\c78de4d0-43ad-498f-8289-a404a8a4a58e_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\c78de4d0-43ad-498f-8289-a404a8a4a58e_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\e856a9bd-f2c5-42f6-a320-b075d8835274_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\62c86e5f-9988-443d-98e8-24a23fda52ce\\e856a9bd-f2c5-42f6-a320-b075d8835274_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\26d2df0c-c7e1-47ad-8d2a-bbad5ff064f0_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\26d2df0c-c7e1-47ad-8d2a-bbad5ff064f0_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\2ee02034-99aa-4dc4-b746-747f55a65182_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\2ee02034-99aa-4dc4-b746-747f55a65182_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\8149a7d9-4373-4eec-8f25-5d3253866495_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\8149a7d9-4373-4eec-8f25-5d3253866495_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\f308c779-6205-4f7a-8860-f42acfc85ea8_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\96638e20-1b6f-4f87-b5ac-65e1acb6726e\\f308c779-6205-4f7a-8860-f42acfc85ea8_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\26c7801e-5789-410f-8421-595770129ee1_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\26c7801e-5789-410f-8421-595770129ee1_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\27190dff-447e-479b-849d-2a72200acbb5_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\27190dff-447e-479b-849d-2a72200acbb5_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\652fbf44-5e8a-48c1-9a1b-02e001d5966e_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\652fbf44-5e8a-48c1-9a1b-02e001d5966e_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\de613291-0827-4b4b-8729-89e505255170_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\b0e8576d-744a-4398-a9a3-5f4b386652cf\\de613291-0827-4b4b-8729-89e505255170_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\513a72da-69ec-4c74-881e-70d75f93e213_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\513a72da-69ec-4c74-881e-70d75f93e213_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\d51694bd-dae9-44e9-be46-6f2baa885e3f_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\d51694bd-dae9-44e9-be46-6f2baa885e3f_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\ddb6d2ab-2a63-4c86-b8ed-13277541bcb7_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\ddb6d2ab-2a63-4c86-b8ed-13277541bcb7_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\e1dabbd8-5d25-4b72-bc64-bc5aad1ba595_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\c08c40c4-3c0c-4979-b817-afc824650183\\e1dabbd8-5d25-4b72-bc64-bc5aad1ba595_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\08bc8889-63ca-4a0c-9c68-eb25864e8091_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\08bc8889-63ca-4a0c-9c68-eb25864e8091_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\600f9998-2e42-48fb-be2e-b9e1d45f3788_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\600f9998-2e42-48fb-be2e-b9e1d45f3788_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\8ec7b0f4-1bc8-4271-a834-ef262e277b7d_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\8ec7b0f4-1bc8-4271-a834-ef262e277b7d_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\9a2530bf-18be-4587-a9a4-2411169a0077_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\db32d16d-4886-4f8f-a2a8-313e89a0646a\\9a2530bf-18be-4587-a9a4-2411169a0077_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\2fdcf8e6-46ef-4211-b094-b9e2f7d04f00_neverending-dream.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\2fdcf8e6-46ef-4211-b094-b9e2f7d04f00_neverending-dream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\3488aa2c-1308-4b93-83dc-d921ec4cdee8_anashel-rpg.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\3488aa2c-1308-4b93-83dc-d921ec4cdee8_anashel-rpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\3f5fafff-d3fa-4ac5-a1ad-80c527fb262d_dark-sushi-mix-v2-25.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\3f5fafff-d3fa-4ac5-a1ad-80c527fb262d_dark-sushi-mix-v2-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\b2d36e7c-55b3-4510-91c2-6e039502a12b_eimis-anime-diffusion-v1-0.jpg",
+      "PackagePath": "staticwebassets\\img\\AiImage\\f539bde1-6b33-4b16-a4af-aa80d81e0c31\\b2d36e7c-55b3-4510-91c2-6e039502a12b_eimis-anime-diffusion-v1-0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\DemoImage\\demo1.jpg",
+      "PackagePath": "staticwebassets\\img\\DemoImage\\demo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\DemoImage\\demo2.jpg",
+      "PackagePath": "staticwebassets\\img\\DemoImage\\demo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\DemoImage\\demo3.jpg",
+      "PackagePath": "staticwebassets\\img\\DemoImage\\demo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\DemoImage\\demo4.jpg",
+      "PackagePath": "staticwebassets\\img\\DemoImage\\demo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\about.png",
+      "PackagePath": "staticwebassets\\img\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b_minhvl2.png",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\0b391cae-0ab6-4060-96e2-dfa33fba3b8b_minhvl2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\5f29f671-7dc4-4fa6-adce-03dea95ffc6f_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\5f29f671-7dc4-4fa6-adce-03dea95ffc6f_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\62c86e5f-9988-443d-98e8-24a23fda52ce_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\62c86e5f-9988-443d-98e8-24a23fda52ce_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\65db3714-d3a4-4214-be96-79ebe7b29ab4_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\65db3714-d3a4-4214-be96-79ebe7b29ab4_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\8477e661-7ac9-4d91-9183-9c60acbc470c_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\8477e661-7ac9-4d91-9183-9c60acbc470c_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\96638e20-1b6f-4f87-b5ac-65e1acb6726e_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\96638e20-1b6f-4f87-b5ac-65e1acb6726e_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\b0e8576d-744a-4398-a9a3-5f4b386652cf_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\b0e8576d-744a-4398-a9a3-5f4b386652cf_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\c08c40c4-3c0c-4979-b817-afc824650183_ronaldo.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\c08c40c4-3c0c-4979-b817-afc824650183_ronaldo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\db32d16d-4886-4f8f-a2a8-313e89a0646a_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\db32d16d-4886-4f8f-a2a8-313e89a0646a_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\customerUpload\\f539bde1-6b33-4b16-a4af-aa80d81e0c31_416226123_1713058325869627_8494220431491681090_n.jpg",
+      "PackagePath": "staticwebassets\\img\\customerUpload\\f539bde1-6b33-4b16-a4af-aa80d81e0c31_416226123_1713058325869627_8494220431491681090_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\overlay-bottom.png",
+      "PackagePath": "staticwebassets\\img\\overlay-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\overlay-top.png",
+      "PackagePath": "staticwebassets\\img\\overlay-top.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\img\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\img\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\img\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\service-4.jpg",
+      "PackagePath": "staticwebassets\\img\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\js\\AI.js",
+      "PackagePath": "staticwebassets\\js\\AI.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\README.md",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\AbortController.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\AbortController.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\AbortController.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\AbortController.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Errors.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Errors.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Errors.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HubConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HubConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HubConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HubConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ILogger.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ILogger.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ILogger.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ILogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ITransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ITransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ITransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ITransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Loggers.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Loggers.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Polyfills.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Polyfills.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Stream.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Stream.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Stream.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Subject.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Subject.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Subject.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Utils.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\Utils.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\Utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\browser-index.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\index.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\cjs\\index.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\cjs\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\AbortController.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\AbortController.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\AbortController.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\AbortController.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\AbortController.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\AbortController.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Errors.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Errors.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Errors.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Errors.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Errors.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HeaderNames.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HeaderNames.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HeaderNames.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HeaderNames.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HeaderNames.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HeaderNames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpClient.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpConnection.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HttpConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HttpConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnection.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IConnection.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IConnection.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IConnection.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHubProtocol.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHubProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ILogger.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ILogger.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ILogger.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ILogger.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ILogger.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ILogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ITransport.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ITransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ITransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ITransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ITransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ITransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Loggers.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Loggers.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Loggers.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Loggers.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Polyfills.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Polyfills.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Polyfills.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Polyfills.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Stream.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Stream.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Stream.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Stream.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Stream.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Subject.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Subject.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Subject.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Subject.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Subject.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Utils.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Utils.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Utils.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\Utils.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\Utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\browser-index.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\index.d.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\index.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\esm\\index.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\esm\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\webworker\\signalr.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\webworker\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\webworker\\signalr.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\webworker\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\webworker\\signalr.min.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\webworker\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\package-lock.json",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\package.json",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\AbortController.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\AbortController.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\DefaultHttpClient.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\DefaultHttpClient.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\DefaultReconnectPolicy.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\DefaultReconnectPolicy.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Errors.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Errors.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\FetchHttpClient.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\FetchHttpClient.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HandshakeProtocol.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HandshakeProtocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HeaderNames.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HeaderNames.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HttpClient.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HttpClient.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HttpConnection.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HttpConnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HubConnection.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HubConnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\HubConnectionBuilder.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\HubConnectionBuilder.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\IConnection.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\IConnection.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\IHttpConnectionOptions.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\IHttpConnectionOptions.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\IHubProtocol.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\IHubProtocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\ILogger.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\ILogger.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\IRetryPolicy.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\IRetryPolicy.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\ITransport.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\ITransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\JsonHubProtocol.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\JsonHubProtocol.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Loggers.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Loggers.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\LongPollingTransport.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\LongPollingTransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Polyfills.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Polyfills.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\ServerSentEventsTransport.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\ServerSentEventsTransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Stream.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Stream.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Subject.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Subject.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\TextMessageFormat.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\TextMessageFormat.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\Utils.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\Utils.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\WebSocketTransport.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\WebSocketTransport.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\XhrHttpClient.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\XhrHttpClient.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\browser-index.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\browser-index.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\index.ts",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\index.ts"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\microsoft\\signalr\\src\\third-party-notices.txt",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\src\\third-party-notices.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\EXE Project\\NguyenCoffeeV2\\NguyenCoffeeV2\\NguyenCoffeeWeb\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NguyenCoffeeWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NguyenCoffeeWeb.props",
+      "PackagePath": "build\\NguyenCoffeeWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NguyenCoffeeWeb.props",
+      "PackagePath": "buildMultiTargeting\\NguyenCoffeeWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NguyenCoffeeWeb.props",
+      "PackagePath": "buildTransitive\\NguyenCoffeeWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

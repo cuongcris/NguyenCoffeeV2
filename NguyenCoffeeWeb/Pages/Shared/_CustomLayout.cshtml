@@ -1,0 +1,53 @@
+﻿@using NguyenCoffeeWeb.Models
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://lh3.googleusercontent.com/u/0/d/12gFnC_wmQLUhc0y_8cwKQSt82gzzI5hG=w1920-h912-iv2" asp-append-version="true" />
+
+    <title>Nguyen Ca Phe</title>
+</head>
+<style>
+    /* Reset some default styles */
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+    }
+
+    /* Ensure RenderBody() fills the entire screen */
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <div style="color:#000">
+        hello
+        hhh
+    </div>
+    <main class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>

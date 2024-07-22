@@ -1,0 +1,192 @@
+﻿@page
+@model NguyenCoffeeWeb.Pages.Admin.Dashboard.IndexModel
+@using Newtonsoft.Json
+@{
+	Layout = "~/Pages/Shared/_CustomLayout.cshtml";
+}
+<link href="~/css/styledashboard.css" rel="stylesheet" />
+
+<div class="app mt-5">
+	<header class="app-header mt-5">
+		<div class="app-header-logo">
+			<div class="logo">
+				<span class="logo-icon">
+					<img src="https://lh3.googleusercontent.com/u/0/d/12gFnC_wmQLUhc0y_8cwKQSt82gzzI5hG=w1920-h912-iv2" />
+				</span>
+				<h4 class="logo-title mt-4">
+					<span>Nguyen Ca Phe</span>
+				</h4>
+			</div>
+		</div>
+		<div class="app-header-navigation">
+			<div class="tabs">
+
+			<a asp-page="/Admin/Dashboard/Index" class="active">
+				Overview
+			</a>
+			<a asp-page="/Admin/Dashboard/Account">
+				Accounts
+			</a>
+			<a asp-page="/Admin/Dashboard/Product">
+				Products
+			</a>
+			<a asp-page="/Admin/Dashboard/Category" >
+				Categories
+			</a>
+			<a asp-page="/Admin/Dashboard/Order">
+				Orders
+			</a>
+			<a asp-page="/Admin/Dashboard">
+				Business
+			</a>
+			</div>
+		</div>
+		<div class="app-header-actions">
+			<a asp-page="/Index" class="user-profile">
+				<span>Hello Admin</span>
+				<span>
+					<img style="height:" src="https://lh3.googleusercontent.com/u/0/d/12gFnC_wmQLUhc0y_8cwKQSt82gzzI5hG=w1920-h912-iv2" />
+				</span>
+			</a>
+			<div class="app-header-actions-buttons">
+				<button class="icon-button large">
+					<i class="ph-magnifying-glass"></i>
+				</button>
+				<button class="icon-button large">
+					<i class="ph-bell"></i>
+				</button>
+			</div>
+		</div>
+		<div class="app-header-mobile">
+			<button class="icon-button large">
+				<i class="ph-list"></i>
+			</button>
+		</div>
+
+	</header>
+	<div class="app-body">
+		<div class="app-body-navigation">
+			<nav class="navigation">
+				<a href="#">
+					<i class="ph-browsers"></i>
+					<span>Dashboard</span>
+				</a>
+				<a href="#">
+					<i class="ph-check-square"></i>
+					<span>Scheduled</span>
+				</a>
+				<a href="#">
+					<i class="ph-swap"></i>
+					<span>Transfers</span>
+				</a>
+				<a href="#">
+					<i class="ph-file-text"></i>
+					<span>Templates</span>
+				</a>
+				<a href="#">
+					<i class="ph-globe"></i>
+					<span>SWIFT</span>
+				</a>
+				<a href="#">
+					<i class="ph-clipboard-text"></i>
+					<span>Exchange</span>
+				</a>
+			</nav>
+			<footer class="footer">
+				<h1>Nguyen Ca Phe<small>©</small></h1>
+				<div>
+					Almeria ©<br />
+					All Rights Reserved 2021
+				</div>
+			</footer>
+		</div>
+	
+		<div class="app-body-sidebar">
+			<section class="payment-section">
+				<div class="payments">
+					<div id="chart" style="width: 600px; height: 400px;"></div>
+				</div>
+				<div class="payment-section-footer">
+					<div class="order-stats">
+						<h2>Orders theo tháng</h2>
+						<table border="1">
+							<thead>
+								<tr >
+									<th width="100px">Tháng</th>
+									<th width="70px">Số lượng</th>
+									<th width="200px">Doanh Thu</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model.OrdersByMonth)
+								{
+									var monthYear = item.Key;
+									var revenue = Model.RevenueByMonth.ContainsKey(monthYear) ? Model.RevenueByMonth[monthYear] : 0;
+
+									<tr >
+										<td class="text-center">@item.Key</td>
+										<td class="text-center">@item.Value</td>
+										<td>@revenue.ToString("N0")Vnđ</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var chartDom = document.getElementById('chart');
+		var myChart = echarts.init(chartDom);
+
+		// Dữ liệu từ Razor Page
+		var months = @Html.Raw(JsonConvert.SerializeObject(Model.OrdersByMonth.Keys));
+		var counts = @Html.Raw(JsonConvert.SerializeObject(Model.OrdersByMonth.Values));
+		var revenues = @Html.Raw(JsonConvert.SerializeObject(Model.RevenueByMonth.Values));
+
+		var option = {
+			tooltip: {
+				trigger: 'axis'
+			},
+			legend: {
+				data: ['Order Count', 'Revenue']
+			},
+			xAxis: {
+				type: 'category',
+				data: months
+			},
+			yAxis: [
+				{
+					type: 'value',
+					name: 'Order Count',
+					position: 'left'
+				},
+				{
+					type: 'value',
+					name: 'Revenue',
+					position: 'right'
+				}
+			],
+			series: [
+				{
+					name: 'Order Count',
+					data: counts,
+					type: 'line',
+					yAxisIndex: 0
+				},
+				{
+					name: 'Revenue',
+					data: revenues,
+					type: 'bar',
+					yAxisIndex: 1
+				}
+			]
+		};
+
+		myChart.setOption(option);
+	});
+</script>
